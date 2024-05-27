@@ -1,0 +1,95 @@
+body {
+
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+
+    /* o flex container organiza seus filhos horizontalmente (em uma linha). */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 25px;
+
+
+
+}
+
+ul a {
+    /* tirar o sublinahdo do texto */
+    text-decoration: none;
+    /* color cor da letra */
+    color: rgb(255, 255, 255);
+}
+
+img {
+    /* width tamnho da imagem */
+    width: 200px;
+
+    /* height aumenta  a imagens horizontamente */
+    height: 200px;
+    /* Arrendondar a imagem */
+    border-radius: 50%;
+    /* colocar borda na imagem com cor */
+    border: 5px solid green
+}
+
+.img {
+    /* centralizar o texto ou a imagem */
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+h1 {
+
+    color: #1ad524;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    text-align: center;
+}
+
+footer .img2 {
+    /* diminui a imagem */
+    width: 70px;
+    /* aumenta a imagem */
+    height: 70px;
+    border: 3px;
+   
+
+}
+
+footer {
+    /* deixou  um do lado do outro o display flex */
+    display: flex;
+    /* da um espasamento entre  os icones */
+    justify-content: center;
+}
+
+.container {
+
+
+    padding: 0px 50px;
+}
+
+
+/* mudar a cor ao passar o mouse nos menus */
+nav a:hover{
+    color: #1ad524;
+}
+
+
+
+
+
+    
+  
+
+
